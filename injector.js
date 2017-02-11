@@ -27,7 +27,6 @@ function handleRequest(request, response){
 	for (var i = 0; i < 40; i++) {
 		response.write(padding);
 		if(request.socket.bufferSize > 0) {
-			console.log(request.socket.bufferSize);
 			bash = true;
 			break;
 		}
