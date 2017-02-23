@@ -4,7 +4,7 @@ Node.js script that can detect when "curl ... | bash" is being used and serve a 
 
 Requirements
 ------------
-* Node.js v8 or Node.js v7 using the [harmony flag](https://nodejs.org/en/docs/es6/).
+* Node.js v7.6.0 or higher
 
 Usage
 -----
